@@ -1,6 +1,6 @@
 export default function FAQ() {
   return (
-    <div className="container mx-auto py-10 space-y-2">
+    <div className="container mx-auto py-10 space-y-2 px-4">
       <div className="collapse collapse-arrow ">
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium bg-[#FFFFF5] shadow-sm">
