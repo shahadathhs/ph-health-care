@@ -12,17 +12,17 @@ export default function Home() {
   return (
     <main className="font-inter">
       {/* first section */}
-      <section className="space-y-4">
+      <section className="space-y-4 banner-violet-pattern">
         <Nav />
         <Banner />
         <Stats />
       </section>
       {/* who are we */}
-      <section>
+      <section className="bg-violet-50">
         <WhoAreWe />
       </section>
       {/* service */}
-      <section>
+      <section className="bg-violet-50">
         <Service />
       </section>
       {/* review */}
