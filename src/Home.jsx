@@ -10,7 +10,7 @@ import WhoAreWe from "./components/WhoAreWe";
 
 export default function Home() {
   return (
-    <main className="font-inter">
+    <main className="font-inter overflow-x-hidden">
       {/* first section */}
       <section className="space-y-4 banner-violet-pattern">
         <Nav />

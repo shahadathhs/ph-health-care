@@ -23,7 +23,7 @@ export default function Service() {
       </div>
 
       <div className="mx-auto max-w-md md:max-w-lg relative">
-        <img src={pic1} alt="" className="rounded-3xl w-full" />
+        <img src={pic1} alt="" className="rounded-3xl w-full h-[400px] object-cover" />
         <div className="bg-violet-500 text-white w-3/4 p-5 rounded-3xl absolute left-5 bottom-5">
           <p className="font-bold text-xl">Advanced Technology</p>
           <div className="flex items-center justify-between gap-4">
@@ -39,7 +39,7 @@ export default function Service() {
       </div>
 
       <div className="mx-auto max-w-md md:max-w-lg relative">
-        <img src={pic2} alt="" className="rounded-3xl w-full" />
+        <img src={pic2} alt="" className="rounded-3xl w-full h-[400px] object-cover" />
         <div className="bg-violet-500 text-white w-3/4 p-5 rounded-3xl absolute left-5 bottom-5">
           <p className="font-bold text-xl">Online Doctor Meet</p>
           <div className="flex items-center justify-between gap-4">
@@ -54,7 +54,7 @@ export default function Service() {
       </div>
 
       <div className="mx-auto max-w-md md:max-w-lg relative">
-        <img src={pic3} alt="" className="rounded-3xl w-full" />
+        <img src={pic3} alt="" className="rounded-3xl w-full h-[400px] object-cover" />
         <div className="bg-violet-500 text-white w-3/4 p-5 rounded-3xl absolute left-5 bottom-5">
           <p className="font-bold text-xl">Consultancy your health</p>
           <div className="flex items-center justify-between gap-4">

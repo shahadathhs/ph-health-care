@@ -20,8 +20,8 @@ export default function WhoAreWe() {
       </div>
 
       <div className="mx-auto max-w-md md:max-w-lg relative">
-        <img src={pic1} alt="" className="rounded-3xl w-full" />
-        <div className="bg-violet-500 text-white w-3/4 p-5 rounded-3xl absolute left-5 md:-left-16 bottom-5 md:-bottom-5">
+        <img src={pic1} alt="" className="rounded-3xl w-full h-full object-cover" />
+        <div className="bg-violet-500 text-white w-3/4 p-5 rounded-3xl absolute left-5 xl:-left-16 bottom-5 xl:-bottom-5">
           <p className="font-bold text-xl">Our mission is simple</p>
           <div className="flex items-center justify-between gap-4">
             <p className="text-sm font-light pt-3">

@@ -45,7 +45,7 @@ export default function Nav() {
             {navLinks}
           </ul>
         </div>
-        <img src={logo} alt="Logo Image" />
+        <img src={logo} alt="Logo Image" className="w-[50px]  sm:w-auto" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-bold text-gray-500">
